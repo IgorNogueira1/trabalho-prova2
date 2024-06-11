@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pro-Serve</title>
+</head>
+
+<body>
+    <div class="head-section">
+        <nav class="navbar navbar-expand-lg py-4">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><img class="img-fluid" src="img/logoProServe.fw.png"
+                        width="90px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" aria-current="page" href="#inicio">Principal</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" href="#servico">Serviços</a>
+                        </li>
+                        <li class="nav-item ms-0 ms-md-3">
+                            <a class="nav-link" href="#prod">Produtos</a>
+                        </li>
+
+                        <li class="nav-item ms-0 ms-md-3">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Contato</button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Orçamento</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Email:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message-text" class="col-form-label">Explique um pouco
+                                                        sobre o sua demanda:</label>
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Fechar</button>
+                                            <button type="button" class="btn btn-primary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero-section">
+            <div class="container">
+                <div id="inicio" class="row align-items-center py-4 g-5">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center text-md-start">
+                            <h1 class="display-md-2 display-4 fw-bold text-dark pb-2">
+                                A <span class="text-primary">Solução </span>que a sua empresa esta procurando
+                            </h1>
+                            <p class="lead">
+                                Descubra programas empresariais inovadores que elevam sua produtividade e crescimento.
+                                Soluções de gestão a segurança, todos projetados para o sucesso do seu negócio.
+                            </p>
+                            <button class="btn btn-primary px-5 py-3 mt-3 fs-5 fw-medium" type="button">
+                                Descubra
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="img/trabalho.jpg" class="img-fluid" alt="a man using vr gadget">
+                    </div>
+                </div>
+        </header>
+    </div>
+
+    <div id="servico" class="row align-items-center gx-3 gy-5 py-5 mt-5">
+        <div class="col-12 col-md-12 col-lg-5">
+            <img src="img/servicos.jpg" id="img-sobre" class="img-fluid mx-auto d-block" alt="a man using vr gadget" />
+        </div>
+        <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+            <h2 class="fw-bold text-primary fs-1 pb-3">Serviços</h2>
+            <p class="about-text">
+                A Pro-Serve é uma empresa de tecnologia que oferece programas corporativos para ajudar outras empresas a
+                superar desafios e impulsionar o crescimento. Seus programas abrangem diversas funções, como CRM, ERP e
+                SCM, e são personalizados para atender às necessidades específicas de cada negócio.
+            </p>
+            <p class="about-text">
+                Além de fornecer software robusto e intuitivo, a Pro-Serve também oferece treinamento e suporte contínuo
+                aos clientes. Mantendo-se atualizada com as últimas tendências e inovações, a Pro-Serve se posiciona
+                como uma parceira de negócios confiável, equipando as empresas com as ferramentas necessárias para
+                prosperar na era digital.
+            </p>
+        </div>
+    </div>
+    <div class="features-section py-5">
+        <div class="container">
+
+
+
+
+            <h2 class="fs-1 fw-bold text-center pt-5 pb-5 text-primary">
+                Caracteristicas Principais
+            </h2>
+            <div class="row g-5 pb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card px-3 py-4 shadow-sm">
+                        <ion-ion class="ionicons" name="bulb-outline"></ion-ion>
+                        <h3 class="f5">Soluções Personalizadas</h3>
+                        <p class="card-text lead">
+                            A Pro-Serve oferece programas corporativos que são adaptados para atender às necessidades
+                            específicas de cada empresa, abrangendo funções como CRM (Gestão de Relacionamento com o
+                            Cliente), ERP (Planejamento de Recursos Empresariais) e SCM (Gestão da Cadeia de
+                            Suprimentos)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card px-3 py-4 shadow-sm blue-bg">
+                        <ion-icon class="ionicons" name="shield-checkmark-outline"></ion-icon>
+                        <h3 class="f5">Apoio Contínuo</h3>
+                        <p class="card-text lead">
+                            Além de fornecer softwares robustos e intuitivos, a Pro-Serve se destaca pelo treinamento e
+                            suporte contínuo aos seus clientes, assegurando que eles possam utilizar plenamente as
+                            ferramentas e recursos oferecidos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 offset-md-3 offset-0 offset-lg-0">
+                    <div class="card px-3 py-4 shadow-sm">
+                        <ion-icon class="ionicons" name="hourglass-outline"></ion-icon>
+                        <h3 class="f5">Inovação e Confiabilidade</h3>
+                        <p class="card-text lead">
+                            Mantendo-se atualizada com as últimas tendências e inovações tecnológicas, a Pro-Serve se
+                            estabelece como uma parceira de negócios confiável, equipando outras empresas com as
+                            ferramentas necessárias para ter sucesso no ambiente competitivo da era digital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12">
+                <h2 id="prod" class="fs-1 fw-bold text-primary text-center pb-5">
+                    Nossos Produtos
+                </h2>
+                <ul class="nav nav-tabs d-flex flx-wrap justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active me-md-3 me-1 text-dark" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">Vendas</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-md-3 me-1 text-dark" id="vr-1" data-bs-toggle="tab"
+                            data-bs-target="#vr-tab-pane" type="button" role="tab" aria-controls="vr-tab-pane"
+                            aria-selected="false">Gestão</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-md-3 me-1 text-dark" id="vr-3" data-bs-toggle="tab"
+                            data-bs-target="#vr3-tab-pane" type="button" role="tab" aria-controls="vr3-tab-pane"
+                            aria-selected="false">Sites</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="nossos-produtos row g-4 mt-5 justify-content-center align-items-center">
+                            <div class="produto-container col-12 col-md-4">
+                                <img id="img-s" src="img/prog-1.jpg" alt="Produto"
+                                    class="produto-imagem img-fluid d-block mx-auto" />
+                                <h1 class="text-center text-box">Sistema de Emissão de Notas Fiscais: Facilitando a
+                                    Gestão Tributária</h1>
+                                <section class="description">
+                                    <h5>O sistema de emissão de notas fiscais é um programa desenvolvido para auxiliar
+                                        empresas e profissionais na emissão de documentos fiscais, como notas fiscais,
+                                        faturas e recibos. Este sistema automatiza o processo de emissão de notas,
+                                        tornando-o mais eficiente, seguro e confiável.</h5>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="vr-tab-pane" role="tabpanel" aria-labelledby="vr-1" tabindex="0">
+                        <div class="row g-4 mt-5 justify-content-center align-items-center">
+                            <div class="col-12 col-md-4">
+                                <img id="img-s" src="img/prog-2.jpg" alt="" class="img-fluid d-block mx-auto image" />
+                                <h1 class="text-center text-box">Criação de Programas para Gestão de Estoque e Ativos
+                                </h1>
+                                <section class="description">
+                                    <h5>Nossos programas para gestão de estoque e ativos são projetados para otimizar o
+                                        controle de inventário e ativos das empresas, oferecendo funcionalidades
+                                        avançadas para monitoramento e administração eficiente.</h5>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="vr3-tab-pane" role="tabpanel" aria-labelledby="vr-3" tabindex="0">
+                        <div class="row g-4 mt-5 justify-content-center align-items-center">
+                            <div class="col-12 col-md-4">
+                                <img id="img-s" src="img/criacao-site.jpg" alt="" class="img-fluid d-block mx-auto" />
+                                <h1 class="text-center text-box">Criação de Sites Personalizados</h1>
+                                <section class="description">
+                                    <h5>Oferecemos serviços de criação de sites personalizados para empresas e
+                                        profissionais que desejam uma presença online única e eficaz. Nossos sites são
+                                        projetados para atender às necessidades específicas de cada cliente.</h5>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Nosso endereço</h2>
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1040941986234!2d-122.13317998841559!3d47.64354398530599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d0ac90667e5%3A0xf940d415c5e56bce!2sMicrosoft%20Way%2C%20Redmond%2C%20WA%2098052%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1717450389317!5m2!1spt-BR!2sbr"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="map-iframe"></iframe>
+    </div>
+
+
+    <div class="gtranslate_wrapper"></div>
+    <script>window.gtranslateSettings = { "default_language": "pt-br", "languages": ["pt", "fr", "de", "es", "en"], "wrapper_selector": ".gtranslate_wrapper", "switcher_horizontal_position": "right", "flag_style": "3d" }</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
